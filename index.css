@@ -28,6 +28,7 @@ button {
 
 .share-btn {
     border-radius: 100px;
+    margin: auto 0;
     position: relative;
     transition: box-shadow 300ms ease;
 }
@@ -118,4 +119,18 @@ button {
 .share-btn .social-links a.website {
     background-image: url("images/website.png");
     transition-delay: 200ms;
+}
+
+footer {
+    padding: 100px 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
+
+footer a {
+    color: #3d81fb;
 }
